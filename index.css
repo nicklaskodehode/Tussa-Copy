@@ -94,9 +94,30 @@ body {
   margin-right: 55px;
   gap: 80px;
 }
-.internet-image {
+.internet-image-container {
   grid-column: 6 / span 7;
 }
+@media (min-width: 480px){
+  .internet-image{
+    width: 38vw;
+    height: auto;
+  }  
+}
+@media (min-width: 768px){
+  .internet-image{
+    width: 49vw;
+    height: auto;
+  }  
+}
+@media (min-width: 1024px){
+  .internet-image{
+    width: auto;
+    height: auto;
+    max-width: 54vw;
+  }  
+}
+
+
 .internet-info-box {
   display: flex;
   grid-column: span 5;
